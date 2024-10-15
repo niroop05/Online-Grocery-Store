@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbURI = 'mongodb+srv://naganiroop2005:niroop05@cluster0.t2fix.mongodb.net/grocery';
+const dbURI = 'mongodb+srv://naganiroop2005:niroop05@cluster0.t2fix.mongodb.net/grocery?ssl=true&tlsInsecure=true';
 //const dbURI = 'mongodb://localhost:27017/grocery'; // Your MongoDB connection URI
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
